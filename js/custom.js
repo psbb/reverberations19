@@ -192,12 +192,12 @@ $(document).ready(function()
 		if($('.timer_list').length)
     	{
     		// Uncomment line below and replace date
-	    	// var target_date = new Date("April 7, 2018").getTime();
+	    	 var target_date = new Date("June 29, 2019").getTime();
 
 	    	// comment lines below
-	    	var date = new Date();
-	    	date.setDate(date.getDate() + 8);
-	    	var target_date = date.getTime();
+	    	// var date = new Date();
+	    	// date.setDate(date.getDate() + 6);
+	    	// var target_date = date.getTime();
 	    	//----------------------------------------
 
 			// variables for time units
