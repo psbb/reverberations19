@@ -192,7 +192,7 @@ $(document).ready(function()
 		if($('.timer_list').length)
     	{
     		// Uncomment line below and replace date
-	    	 var target_date = new Date("June 29, 2019").getTime();
+	    	 var target_date = new Date("July 03, 2019").getTime();
 
 	    	// comment lines below
 	    	// var date = new Date();
