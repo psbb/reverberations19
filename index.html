@@ -29,24 +29,6 @@
 <!-- <script src="php/register.js"></script> -->
 </head>
 <style>
-
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: right;
-  width: 33.3%;
-  padding-left: 2%;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 #logo{
 	font-size: 40px;
 	color: black;
@@ -222,6 +204,12 @@ width: 100%;
 									<div class="lang_name">Green Screen</div>
 								</a>
 							</div>
+							<div class="owl-item language_item">
+								<a href="#">
+									<div class="flag"><i id="logo">&#83;</i></div>
+									<div class="lang_name">Surprise Event</div>
+								</a>
+							</div>
 
 							<!-- Flag -->
 
@@ -254,7 +242,15 @@ width: 100%;
 
 <div class="home_button trans_200"><a href="einvite.pdf" target="_blank" download="einvite.pdf" >DOWNLOAD E-INVITE</a></div>
 
-
+						<!-- <div class="event_image"><img src="images/event_1.jpg" alt=""></div>
+						<div class="event_date d-flex flex-column align-items-center justify-content-center">
+							<div class="event_day">26</div>
+							<div class="event_month">aug</div>
+						</div>
+						<div class="event_body d-flex flex-row align-items-center justify-content-start">
+							<div class="event_title"><a href="#">Networking Day</a></div>
+							<div class="event_tag ml-auto">Free</div>
+						</div> -->
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -276,26 +272,61 @@ width: 100%;
 			</div>
 		</div>
 	</div>
-	<h2 class="section_title text-center">Theme</h2>
 
 	<!-- Courses -->
-	<div class="row">
 
-	  <div class="column">
-<iframe width="420" height="237" src="https://www.youtube.com/embed/ftwucktgWLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
-	  <div class="column">
-			<iframe width="420" height="237" src="https://www.youtube.com/embed/UY5cwUACt4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
-	  <div class="column">
-			<iframe width="420" height="237" src="https://www.youtube.com/embed/juWYAv7E0e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
-	</div>
+	<div class="courses">
+		<div class="courses_background"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="section_title text-center">Theme</h2>
+				</div>
+			</div>
+			<div class="row courses_row">
 
+				<!-- Course -->
+				<div class="col-lg-4 course_col">
+					<div class="course">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ukN0termkcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UY5cwUACt4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+						<!-- <div class="course_body">
+							<div class="course_title"><a href="course.html">Vocabulary</a></div>
+							<div class="course_info">
+								<ul>
+									<li><a href="instructors.html">Sarah Parker</a></li>
+									<li><a href="#">English</a></li>
+								</ul>
+							</div>
+							<div class="course_text">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla.</p>
+							</div>
+						</div> -->
+						<!-- <div class="course_footer d-flex flex-row align-items-center justify-content-start">
+							<div class="course_students"><i class="fa fa-user" aria-hidden="true"></i><span>10</span></div>
+							<div class="course_rating ml-auto"><i class="fa fa-star" aria-hidden="true"></i><span>4,5</span></div>
+							<div class="course_mark course_free trans_200"><a href="#">Free</a></div>
+						</div> -->
 					</div>
 				</div>
 
+				<!-- Course -->
+				<div class="col-lg-2 course_col">
+					<div class="course">
+						<!-- <iframe width="680" height="315"
+								src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe> -->
+					</div>
+				</div>
 
+				<!-- Course -->
+				<div class="col-lg-2 course_col">
+					<div class="course">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S1phXoTi8ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/juWYAv7E0e0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
 
 			</div>
 		</div>
@@ -319,7 +350,7 @@ width: 100%;
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/psbb.png" alt=""></div>
 						</div>
-						<div class="instructor_name"><a href="instructors.html">PSBB KK NAGAR</a></div>
+						<div class="instructor_name"><a href="http://www.psbbschools.ac.in/">PSBB KK NAGAR</a></div>
 
 						<div class="instructor_text">
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p> -->
@@ -339,7 +370,7 @@ width: 100%;
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/nngm.png" alt=""></div>
 						</div>
-						<div class="instructor_name"><a href="instructors.html">PSBB NUNGAMBAKKAM</a></div>
+						<div class="instructor_name"><a href="http://www.psbbschools.ac.in/">PSBB NUNGAMBAKKAM</a></div>
 
 						<div class="instructor_text">
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p> -->
@@ -359,7 +390,7 @@ width: 100%;
 						<div class="instructor_image_container">
 							<div class="instructor_image"><img src="images/sry.png" alt=""></div>
 						</div>
-						<div class="instructor_name"><a href="instructors.html">PSBB SIRUSERI</a></div>
+						<div class="instructor_name"><a href="http://www.psbbschools.ac.in/">PSBB SIRUSERI</a></div>
 
 						<div class="instructor_text">
 							<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor.</p> -->
@@ -383,7 +414,7 @@ width: 100%;
 		<div class="container">
 			<div class="row">
 
-
+				<!-- Register Form -->
 
 				<div class="col-lg-6">
 					<div class="register_form_container">
@@ -394,9 +425,9 @@ width: 100%;
 					</div>
 				</div>
 
+				<!-- Register Timer -->
 
-
-				<div class="col-lg-6">
+				<div id="chicken" class="col-lg-6">
 					<div class="register_timer_container">
 						<div class="register_timer_title">Register Now</div>
 						<div class="register_timer_text">
@@ -416,10 +447,73 @@ width: 100%;
 		</div>
 	</div>
 
+	<!-- Events -->
 
+
+	<!-- Blog -->
+
+
+
+	<!-- Footer -->
 
 	<footer class="footer">
+		<!-- <div class="footer_body"> -->
+			<!-- <div class="container"> -->
+				<!-- <div class="row"> -->
 
+					<!-- Newsletter -->
+					<!-- <div class="col-lg-3 footer_col">
+						<div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
+							<div class="footer_logo mb-auto"><a href="#">PSBB</a></div>
+							<div class="footer_title">Subscribe</div>
+							<form action="#" id="newsletter_form" class="newsletter_form">
+								<input type="email" class="newsletter_input" placeholder="Email" required="required">
+								<button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+							</form>
+						</div>
+					</div> -->
+
+					<!-- About -->
+					<!-- <div class="col-lg-2 offset-lg-3 footer_col">
+						<div>
+							<div class="footer_title">About Us</div>
+							<ul class="footer_list">
+								<li><a href="#">Courses</a></li>
+								<li><a href="#">Team</a></li>
+								<li><a href="#">Brand Guidelines</a></li>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Advertise with us</a></li>
+								<li><a href="#">Press</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+					</div> -->
+
+					<!-- Help & Support -->
+					<!-- <div class="col-lg-2 footer_col">
+						<div class="footer_title">Help & Support</div>
+						<ul class="footer_list">
+							<li><a href="#">Discussions</a></li>
+							<li><a href="#">Troubleshooting</a></li>
+							<li><a href="#">Duolingo FAQs</a></li>
+							<li><a href="#">Schools FAQs</a></li>
+							<li><a href="#">Duolingo English Test FAQs</a></li>
+							<li><a href="#">Status</a></li>
+						</ul>
+					</div> -->
+
+					<!-- Privacy -->
+					<!-- <div class="col-lg-2 footer_col clearfix">
+						<div>
+							<div class="footer_title">Privacy & Terms</div>
+							<ul class="footer_list">
+								<li><a href="#">Community Guidelines</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Brand Guidelines</a></li>
+								<li><a href="#">Privacy</a></li>
+							</ul>
+						</div>
+					</div> -->
 
 				</div>
 			</div>
@@ -433,7 +527,7 @@ width: 100%;
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 							<div class="cr_right ml-md-auto">
-								<div class="footer_phone"><span class="cr_title">phone:</span>+91 73058 83058</div>
+								<div class="footer_phone"><span class="cr_title">phone:</span>+044 2366 4251</div>
 								<div class="footer_social">
 									<span class="cr_social_title">follow us</span>
 									<ul>
@@ -451,7 +545,58 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 </div>
 
+<div class="modal fade login" id="loginModal">
+		 <div class="modal-dialog login animated">
+				 <div class="modal-content">
+						<div class="modal-header">
+									 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							 </div>
+							 <div class="modal-body">
+									 <div class="box">
+												<div class="content">
+													 <div class="social">
+															 <a class="circle github" href="#">
+																	 <i class="fa fa-github fa-fw"></i>
+															 </a>
+															 <a id="google_login" class="circle google" href="#">
+																	 <i class="fa fa-google-plus fa-fw"></i>
+															 </a>
+															 <a id="facebook_login" class="circle facebook" href="#">
+																	 <i class="fa fa-facebook fa-fw"></i>
+															 </a>
+													 </div>
+													 <div class="division">
+															 <div class="line l"></div>
+																 <span>or</span>
+															 <div class="line r"></div>
+													 </div>
+													 <div class="error"></div>
+													 <div class="form loginBox">
+															 <form method="" action="" accept-charset="UTF-8">
+															 <input id="emailget" class="form-control" type="text" placeholder="Email" name="email">
+															 <input id="passwordget" class="form-control" type="password" placeholder="Password" name="password">
+															 <input id="loginbtn" class="btn btn-default btn-login" type="button" value="Login">
+															 </form>
+													 </div>
+												</div>
+									 </div>
+									 <div class="box">
 
+									 </div>
+							 </div>
+							 <div class="modal-footer">
+									 <div class="forgot login-footer">
+											 <span>Looking to
+														<a  href="#forme">create an account</a>
+											 ?</span>
+									 </div>
+									 									 </div>
+							 </div>
+				 </div>
+		 </div>
+ </div>
+
+<script src="php/signup.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
 <script src="styles/bootstrap4/bootstrap.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
