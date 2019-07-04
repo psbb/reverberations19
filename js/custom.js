@@ -181,10 +181,6 @@ $(document).ready(function()
 		}
 	}
 
-	
 
-	
-    	}
-	}
 
 });
